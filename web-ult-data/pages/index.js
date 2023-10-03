@@ -1,14 +1,15 @@
+import Head from "next/head.js";
 import Header from "../components/Header.js";
+import Research from "../components/Research.js";
 
 export default function Home() {
   return (
     <>
-      <head>
-        <title>Salut</title>
-      </head>
+      <Head>
+        <title>a</title>
+      </Head>
       <Header />
-      <input type="search"></input>
-      <input type="submit"></input>
+      <Research />
     </>
   );
 }

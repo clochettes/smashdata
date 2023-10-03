@@ -7,7 +7,8 @@ export default function Home() {
         <title>Salut</title>
       </head>
       <Header />
-      <a></a>
+      <input type="search"></input>
+      <input type="submit"></input>
     </>
   );
 }
